@@ -1,0 +1,19 @@
+{
+  "name": "cordova-app-crash",
+  "version": "0.0.1",
+  "description": "A simple enough plugin to crash the app on demand",
+  "cordova": {
+    "id": "cordova-app-crash",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Ahsan Ayaz",
+  "license": "MIT"
+}

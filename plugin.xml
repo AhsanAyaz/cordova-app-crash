@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-app-crash" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>AppCrash</name>
+    <js-module name="AppCrash" src="www/AppCrash.js">
+        <clobbers target="cordova.plugins.AppCrash" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="config.xml">
+            <feature name="AppCrash">
+                <param name="android-package" value="com.appcrash.plugin.AppCrash" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/AppCrash.java" target-dir="src/" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="AppCrash">
+                <param name="ios-package" value="AppCrash" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/AppCrash.m" />
+    </platform>
+</plugin>
