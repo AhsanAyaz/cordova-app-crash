@@ -9,11 +9,22 @@
       "ios"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhsanAyaz/cordova-app-crash.git"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "crash",
+    "ionic",
+    "crashlytics"
   ],
-  "author": "Ahsan Ayaz",
+  "bugs": {
+    "url": "https://github.com/AhsanAyaz/cordova-app-crash/issues"
+  },
+  "homepage": "https://github.com/AhsanAyaz/cordova-app-crash#readme",
+  "author": "Ahsan Ayaz<ahsan.ubitian@gmail.com>",
   "license": "MIT"
 }
