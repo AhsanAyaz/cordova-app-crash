@@ -16,8 +16,7 @@
     NSString* echo = [command.arguments objectAtIndex:0];
     
     if (echo != nil && [echo length] > 0) {
-        int x = 0;
-        int y = x/0;
+        @throw @"Crash as per request";
 
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
