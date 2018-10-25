@@ -1,6 +1,6 @@
 {
   "name": "cordova-app-crash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple enough plugin to crash the app on demand",
   "cordova": {
     "id": "cordova-app-crash",
